@@ -32,7 +32,7 @@ const makeDomo = (req, res) => {
     });
 
     return domoPromise;
-}
+};
 
 module.exports.makerPage = makerPage;
 module.exports.make = makeDomo;
